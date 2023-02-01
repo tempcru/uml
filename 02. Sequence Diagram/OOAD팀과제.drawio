@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T05:28:11.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="lugM0eKIVvvgyYU0UZnj" version="20.8.14" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-01T05:33:23.051Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="jJf4W-8Ljy5XJ8BNWucy" version="20.8.14" type="github">
   <diagram name="페이지-1" id="G8HBMBSFDNfXRrGZk2dZ">
-    <mxGraphModel dx="1405" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1706" dy="1094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -71,7 +71,7 @@
           <mxGeometry x="77" y="250" width="10" height="410" as="geometry" />
         </mxCell>
         <mxCell id="JSWrZhwCicqu2azKiJlL-13" value="alt 주문성공시" style="shape=umlFrame;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=90;height=20;" vertex="1" parent="1">
-          <mxGeometry x="355" y="630" width="270" height="150" as="geometry" />
+          <mxGeometry x="355" y="630" width="435" height="220" as="geometry" />
         </mxCell>
         <mxCell id="JSWrZhwCicqu2azKiJlL-16" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=none;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" target="JSWrZhwCicqu2azKiJlL-15">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -142,7 +142,7 @@
             <mxPoint x="572.83" y="595" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JSWrZhwCicqu2azKiJlL-40" value="결재완료 처리" style="endArrow=classic;html=1;rounded=0;exitX=-0.283;exitY=0.79;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="JSWrZhwCicqu2azKiJlL-38">
+        <mxCell id="JSWrZhwCicqu2azKiJlL-40" value="주문 접수처리" style="endArrow=classic;html=1;rounded=0;exitX=-0.283;exitY=0.79;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="JSWrZhwCicqu2azKiJlL-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="394.9999999999998" y="675" as="sourcePoint" />
             <mxPoint x="554.5" y="675" as="targetPoint" />
@@ -155,7 +155,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JSWrZhwCicqu2azKiJlL-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="570" y="665" width="10" height="105" as="geometry" />
+          <mxGeometry x="570" y="665" width="10" height="35" as="geometry" />
         </mxCell>
         <mxCell id="JSWrZhwCicqu2azKiJlL-43" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=none;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" target="JSWrZhwCicqu2azKiJlL-42">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -164,7 +164,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JSWrZhwCicqu2azKiJlL-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="701" y="690" width="10" height="30" as="geometry" />
+          <mxGeometry x="701" y="730" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JSWrZhwCicqu2azKiJlL-44" value="라이더 콜" style="endArrow=classic;html=1;rounded=0;exitX=-0.283;exitY=0.79;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="579.9999999999998" y="740.41" as="sourcePoint" />
+            <mxPoint x="700" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSWrZhwCicqu2azKiJlL-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="570" y="730" width="10" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JSWrZhwCicqu2azKiJlL-47" value="라이더 정보" style="endArrow=classic;html=1;rounded=0;entryX=0.976;entryY=0.747;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.124;exitY=0.636;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JSWrZhwCicqu2azKiJlL-42" target="JSWrZhwCicqu2azKiJlL-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="730" as="sourcePoint" />
+            <mxPoint x="710" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSWrZhwCicqu2azKiJlL-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="570" y="800" width="10" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JSWrZhwCicqu2azKiJlL-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="701" y="800" width="10" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JSWrZhwCicqu2azKiJlL-50" value="음식 픽업 상태" style="endArrow=classic;html=1;rounded=0;exitX=-0.283;exitY=0.79;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="579.9999999999998" y="810.4099999999999" as="sourcePoint" />
+            <mxPoint x="700" y="810" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
